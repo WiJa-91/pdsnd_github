@@ -17,7 +17,7 @@ What files did I need?
 * new_york_city.csv
 * washington.csv
 
-Randomly selected data for the first six months of 2017 are provided for all three cities. All three of the data files contain the same core six (6) columns:
+Randomly selected data for the first six months of 2017 are provided for all three cities. All three of the data files contain the same core six columns:
 
 * Start Time (e.g., 2017-01-01 00:07:57)
 * End Time (e.g., 2017-01-01 00:20:53)
@@ -59,9 +59,6 @@ What questions did I have to answer?
 #5 Raw data output
 
 * script that takes in raw input to create an interactive experience in the terminal to present these statistics
-* 
- 
-
 
 Credits
 
