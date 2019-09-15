@@ -6,13 +6,7 @@ CITY_DATA = { 'Chicago': 'chicago.csv',
               'New York City': 'new_york_city.csv',
               'Washington': 'washington.csv' }
 
-# Modified print-statements
-def print_pause_a(message_to_print):
-    print(message_to_print)
-    time.sleep(1.0)
-def print_pause_b(message_to_print):
-    print(message_to_print)
-    time.sleep(0.5)
+
 
 # Providing input for main-function
 def get_filters():
@@ -263,6 +257,14 @@ def restart_survey():
     else:
         print_pause_a('Sorry I don\'t understand-please try again')
         restart_survey()
+
+# Modified print-statements
+def print_pause_a(message_to_print):
+    print(message_to_print)
+    time.sleep(1.0)
+def print_pause_b(message_to_print):
+    print(message_to_print)
+    time.sleep(0.5)
 
 # main function that combines the predefined functions
 def main():
